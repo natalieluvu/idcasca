@@ -1,3 +1,5 @@
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
 while task.wait(1.2) do
 for _, plrs in pairs(game.Players:GetPlayers()) do 
 if plrs ~= game.Players.LocalPlayer and plrs.Character.Humanoid.Health > 0 then
