@@ -8,6 +8,7 @@ local target = plrs.Name
 local A_1 = "\104\105\116\112\108\114"
 local A_2 = game:GetService("Workspace")[target]
 local A_3 = 1000
+print("LOL")
 local Event = game:GetService("Workspace").Mugusata.Classic.RemoteEvent
 Event:FireServer(A_1, A_2, A_3)
 end
