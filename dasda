@@ -1,0 +1,13 @@
+while task.wait(1.2) do
+for _, plrs in pairs(game.Players:GetPlayers()) do 
+if plrs ~= game.Players.LocalPlayer and plrs.Character.Humanoid.Health > 0 then
+local char = plrs.Character
+local target = plrs.Name 
+local A_1 = "\104\105\116\112\108\114"
+local A_2 = game:GetService("Workspace")[target]
+local A_3 = 1000
+local Event = game:GetService("Workspace").Mugusata.Classic.RemoteEvent
+Event:FireServer(A_1, A_2, A_3)
+end
+end
+end
